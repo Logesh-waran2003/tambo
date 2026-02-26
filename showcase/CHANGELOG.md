@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.38.0](https://github.com/tambo-ai/tambo/compare/showcase-v0.37.2...showcase-v0.38.0) (2026-02-26)
+
+
+### Features
+
+* **ui:** finalize message input behavior and contextual showcase prompts ([#2447](https://github.com/tambo-ai/tambo/issues/2447)) ([00434a5](https://github.com/tambo-ai/tambo/commit/00434a5de077357cc7b4725cc16cf7e78c094a2e))
+
+
+### Bug Fixes
+
+* **dev:** update custom condition usage for hmr/dev/tsconfig ([#2480](https://github.com/tambo-ai/tambo/issues/2480)) ([71a141d](https://github.com/tambo-ai/tambo/commit/71a141de9ccbd7cf82c0e5170eb3274b177b6641))
+* **showcase:** key TamboProvider on userContextKey to reset state on navigation ([#2448](https://github.com/tambo-ai/tambo/issues/2448)) ([7033294](https://github.com/tambo-ai/tambo/commit/7033294b9010e8f65b3a8673287503114a55ff58))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump @tailwindcss/postcss from 4.1.18 to 4.2.0 in the tailwind group ([#2473](https://github.com/tambo-ai/tambo/issues/2473)) ([7d9303b](https://github.com/tambo-ai/tambo/commit/7d9303b3977d455da7f21256061eaa3ab843883b))
+* **deps:** bump streamdown from 1.6.10 to 2.3.0 ([#2344](https://github.com/tambo-ai/tambo/issues/2344)) ([11f9f37](https://github.com/tambo-ai/tambo/commit/11f9f37cad3e3bbe17264a54c4d5f6de0d1aaea7))
+* **deps:** bump the small-safe-packages group with 6 updates ([#2470](https://github.com/tambo-ai/tambo/issues/2470)) ([cb48c28](https://github.com/tambo-ai/tambo/commit/cb48c281b78b64e2e2352fd52007984681fb5ab6))
+* **deps:** bump the tiptap group with 9 updates ([#2474](https://github.com/tambo-ai/tambo/issues/2474)) ([f72e6c5](https://github.com/tambo-ai/tambo/commit/f72e6c516466db21d7c57b88173b056987bfb846))
+* enable monorepo hot reload DX ([#2427](https://github.com/tambo-ai/tambo/issues/2427)) ([c72bb66](https://github.com/tambo-ai/tambo/commit/c72bb663b86f3a751064cf5a87db84d250a7462c))
+
 ## [0.37.2](https://github.com/tambo-ai/tambo/compare/showcase-v0.37.1...showcase-v0.37.2) (2026-02-11)
 
 

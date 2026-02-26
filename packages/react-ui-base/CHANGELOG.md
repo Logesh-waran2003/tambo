@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.0-alpha.8](https://github.com/tambo-ai/tambo/compare/@tambo-ai/react-ui-base-v0.1.0-alpha.7...@tambo-ai/react-ui-base-v0.1.0-alpha.8) (2026-02-26)
+
+
+### Features
+
+* **ui:** finalize message input behavior and contextual showcase prompts ([#2447](https://github.com/tambo-ai/tambo/issues/2447)) ([00434a5](https://github.com/tambo-ai/tambo/commit/00434a5de077357cc7b4725cc16cf7e78c094a2e))
+
+
+### Bug Fixes
+
+* **dev:** update custom condition usage for hmr/dev/tsconfig ([#2480](https://github.com/tambo-ai/tambo/issues/2480)) ([71a141d](https://github.com/tambo-ai/tambo/commit/71a141de9ccbd7cf82c0e5170eb3274b177b6641))
+
+
+### Miscellaneous Chores
+
+* enable monorepo hot reload DX ([#2427](https://github.com/tambo-ai/tambo/issues/2427)) ([c72bb66](https://github.com/tambo-ai/tambo/commit/c72bb663b86f3a751064cf5a87db84d250a7462c))
+
+
+### Code Refactoring
+
+* **react-ui-base:** migrate primitives to base-ui useRender ([#2443](https://github.com/tambo-ai/tambo/issues/2443)) ([41e8419](https://github.com/tambo-ai/tambo/commit/41e841967338f57817d474c40c6bb2720dabb503))
+
 ## [0.1.0-alpha.7](https://github.com/tambo-ai/tambo/compare/@tambo-ai/react-ui-base-v0.1.0-alpha.6...@tambo-ai/react-ui-base-v0.1.0-alpha.7) (2026-02-18)
 
 

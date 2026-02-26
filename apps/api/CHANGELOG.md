@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.144.0](https://github.com/tambo-ai/tambo/compare/api-v0.143.3...api-v0.144.0) (2026-02-26)
+
+
+### Features
+
+* **api:** increase default tool call limit from 10 to 100 ([#2484](https://github.com/tambo-ai/tambo/issues/2484)) ([5dd1c1e](https://github.com/tambo-ai/tambo/commit/5dd1c1e7b587c2597f109d852e9b59999b3317d7))
+
+
+### Bug Fixes
+
+* **dev:** update custom condition usage for hmr/dev/tsconfig ([#2480](https://github.com/tambo-ai/tambo/issues/2480)) ([71a141d](https://github.com/tambo-ai/tambo/commit/71a141de9ccbd7cf82c0e5170eb3274b177b6641))
+
 ## [0.143.3](https://github.com/tambo-ai/tambo/compare/api-v0.143.2...api-v0.143.3) (2026-02-24)
 
 

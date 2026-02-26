@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.30.0](https://github.com/tambo-ai/tambo/compare/docs-v1.29.0...docs-v1.30.0) (2026-02-26)
+
+
+### Features
+
+* **ui:** finalize message input behavior and contextual showcase prompts ([#2447](https://github.com/tambo-ai/tambo/issues/2447)) ([00434a5](https://github.com/tambo-ai/tambo/commit/00434a5de077357cc7b4725cc16cf7e78c094a2e))
+
+
+### Bug Fixes
+
+* **dev:** update custom condition usage for hmr/dev/tsconfig ([#2480](https://github.com/tambo-ai/tambo/issues/2480)) ([71a141d](https://github.com/tambo-ai/tambo/commit/71a141de9ccbd7cf82c0e5170eb3274b177b6641))
+* **docs:** correct ToolResultContent.tool_use_id to toolUseId ([#2497](https://github.com/tambo-ai/tambo/issues/2497)) ([8afa491](https://github.com/tambo-ai/tambo/commit/8afa49194239db21de33fd7bf3b319abc9636860))
+* **docs:** fix incorrect types, prop names, and imports across docs ([#2486](https://github.com/tambo-ai/tambo/issues/2486)) ([cc05644](https://github.com/tambo-ai/tambo/commit/cc056442440f77c108326562d54605108552e24a))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump streamdown from 1.6.10 to 2.3.0 ([#2344](https://github.com/tambo-ai/tambo/issues/2344)) ([11f9f37](https://github.com/tambo-ai/tambo/commit/11f9f37cad3e3bbe17264a54c4d5f6de0d1aaea7))
+
+
+### Documentation
+
+* **react-sdk:** add authState, isIdentified, TamboAuthState to reference ([#2503](https://github.com/tambo-ai/tambo/issues/2503)) ([8c7aa22](https://github.com/tambo-ai/tambo/commit/8c7aa226742639478df06a14b62e71cc7c25502a))
+* **react-sdk:** document ComponentRenderer, TamboMessageProvider, and related hooks ([#2502](https://github.com/tambo-ai/tambo/issues/2502)) ([c14d652](https://github.com/tambo-ai/tambo/commit/c14d65282152f29f699547763719a82ae4924c3e))
+* **react-sdk:** fix docs bugs and add missing reference pages ([#2488](https://github.com/tambo-ai/tambo/issues/2488)) ([c47336e](https://github.com/tambo-ai/tambo/commit/c47336e8c506fcd10259b4754876a97937289b55))
+
 ## [1.29.0](https://github.com/tambo-ai/tambo/compare/docs-v1.28.0...docs-v1.29.0) (2026-02-25)
 
 

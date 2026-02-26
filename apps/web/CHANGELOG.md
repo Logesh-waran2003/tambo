@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.133.0](https://github.com/tambo-ai/tambo/compare/web-v0.132.2...web-v0.133.0) (2026-02-26)
+
+
+### Features
+
+* **api:** increase default tool call limit from 10 to 100 ([#2484](https://github.com/tambo-ai/tambo/issues/2484)) ([5dd1c1e](https://github.com/tambo-ai/tambo/commit/5dd1c1e7b587c2597f109d852e9b59999b3317d7))
+* **ui:** finalize message input behavior and contextual showcase prompts ([#2447](https://github.com/tambo-ai/tambo/issues/2447)) ([00434a5](https://github.com/tambo-ai/tambo/commit/00434a5de077357cc7b4725cc16cf7e78c094a2e))
+
+
+### Bug Fixes
+
+* **dev:** update custom condition usage for hmr/dev/tsconfig ([#2480](https://github.com/tambo-ai/tambo/issues/2480)) ([71a141d](https://github.com/tambo-ai/tambo/commit/71a141de9ccbd7cf82c0e5170eb3274b177b6641))
+* **web:** auto-close CLI auth page after successful login ([#2483](https://github.com/tambo-ai/tambo/issues/2483)) ([6b6e496](https://github.com/tambo-ai/tambo/commit/6b6e496d2a1a81ba1f43f782cdd75e5bc95c1d63))
+* **web:** include scripts in Docker build ([#2463](https://github.com/tambo-ai/tambo/issues/2463)) ([dc61669](https://github.com/tambo-ai/tambo/commit/dc61669d0b853742f2f4fe582063de4d33fd6961))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump streamdown from 1.6.10 to 2.3.0 ([#2344](https://github.com/tambo-ai/tambo/issues/2344)) ([11f9f37](https://github.com/tambo-ai/tambo/commit/11f9f37cad3e3bbe17264a54c4d5f6de0d1aaea7))
+* **deps:** bump the sentry group with 3 updates ([#2471](https://github.com/tambo-ai/tambo/issues/2471)) ([242e53c](https://github.com/tambo-ai/tambo/commit/242e53cd52f2093b3aed346e3909ee3f18a7f921))
+* **deps:** bump the small-safe-packages group with 6 updates ([#2470](https://github.com/tambo-ai/tambo/issues/2470)) ([cb48c28](https://github.com/tambo-ai/tambo/commit/cb48c281b78b64e2e2352fd52007984681fb5ab6))
+* **deps:** bump the tiptap group with 9 updates ([#2474](https://github.com/tambo-ai/tambo/issues/2474)) ([f72e6c5](https://github.com/tambo-ai/tambo/commit/f72e6c516466db21d7c57b88173b056987bfb846))
+* enable monorepo hot reload DX ([#2427](https://github.com/tambo-ai/tambo/issues/2427)) ([c72bb66](https://github.com/tambo-ai/tambo/commit/c72bb663b86f3a751064cf5a87db84d250a7462c))
+
+
+### Styles
+
+* **ui:** better layout for mobile users ([#2453](https://github.com/tambo-ai/tambo/issues/2453)) ([54ec98f](https://github.com/tambo-ai/tambo/commit/54ec98f0129cdbe25f7686f08f33b3d044d236b3))
+
 ## [0.132.2](https://github.com/tambo-ai/tambo/compare/web-v0.132.1...web-v0.132.2) (2026-02-20)
 
 

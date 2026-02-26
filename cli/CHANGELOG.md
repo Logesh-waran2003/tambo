@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.54.1](https://github.com/tambo-ai/tambo/compare/tambo-v0.54.0...tambo-v0.54.1) (2026-02-26)
+
+
+### Bug Fixes
+
+* **cli:** detect workspace lockfiles from subdirs ([#2490](https://github.com/tambo-ai/tambo/issues/2490)) ([91e1482](https://github.com/tambo-ai/tambo/commit/91e1482666e2fdb15e10e7ef6e5bbc29481fc7e1))
+
+
+### Miscellaneous Chores
+
+* **deps:** bump streamdown from 1.6.10 to 2.3.0 ([#2344](https://github.com/tambo-ai/tambo/issues/2344)) ([11f9f37](https://github.com/tambo-ai/tambo/commit/11f9f37cad3e3bbe17264a54c4d5f6de0d1aaea7))
+
 ## [0.54.0](https://github.com/tambo-ai/tambo/compare/tambo-v0.53.1...tambo-v0.54.0) (2026-02-25)
 
 

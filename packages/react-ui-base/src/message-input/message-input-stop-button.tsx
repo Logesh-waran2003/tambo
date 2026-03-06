@@ -19,11 +19,12 @@ export interface MessageInputStopButtonProps extends useRender.ComponentProps<
 export const MessageInputStopButton = React.forwardRef<
   HTMLButtonElement,
   MessageInputStopButtonProps
->(({ keepMounted = false, ...props }, ref) => {
+>(({ keepMounted = false, tabIndex: propTabIndex, ...props }, ref) => {
   const { isPending, isIdle, cancel, isUpdatingToken } =
     useMessageInputContext();
   const hidden = isUpdatingToken || (!isPending && isIdle);
   const disabled = isUpdatingToken;
+  const effectiveTabIndex = hidden ? -1 : propTabIndex;
 
   const onClick = React.useCallback(
     async (event: React.MouseEvent) => {
@@ -51,6 +52,7 @@ export const MessageInputStopButton = React.forwardRef<
       type: "button",
       disabled,
       onClick,
+      tabIndex: effectiveTabIndex,
       "aria-hidden": hidden ? "true" : undefined,
     }),
   });
